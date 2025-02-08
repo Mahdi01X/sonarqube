@@ -202,6 +202,11 @@ sonar {
     property 'sonar.projectName', projectTitle
     property 'sonar.projectVersion', "${versionInSources}-SNAPSHOT"
     property 'sonar.buildString', version
+    property "sonar.projectKey", "Mahdi01X_sonarqube"
+    property "sonar.organization", "mahdi01x"
+    property "sonar.host.url", "https://sonarcloud.io"
+  }
+}
   }
 }
 
